@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="logo">
+            <h1 style="margin: 0; font-size: 1.2rem;">Dashboard</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search documentation...">
+        </div>
+        <div class="user-menu">
+            <span>Welcome, User</span>
+        </div>
+    </nav>
+
+    <div class="container">
+        <nav class="side-nav">
+            <div class="nav-section">
+                <h3>Getting Started</h3>
+                <ul class="nav-items">
+                    <li><a href="#">Introduction</a></li>
+                    <li><a href="#">Quick Start Guide</a></li>
+                    <li><a href="#">Best Practices</a></li>
+                </ul>
+            </div>
+            <div class="nav-section">
+                <h3>Documentation</h3>
+                <ul class="nav-items">
+                    <li><a href="#">API Reference</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Examples</a></li>
+                </ul>
+            </div>
+            <div class="nav-section">
+                <h3>Resources</h3>
+                <ul class="nav-items">
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <div class="breadcrumb">
+                Home / Dashboard
+            </div>
+
+            <div class="dashboard-grid">
+                <div class="card">
+                    <h2>Recent Updates</h2>
+                    <table class="activity-table">
+                        <tr>
+                            <th>Page</th>
+                            <th>Status</th>
+                            <th>Last Updated</th>
+                        </tr>
+                        <tr>
+                            <td>Quick Start Guide</td>
+                            <td><span class="status status-success">Updated</span></td>
+                            <td>2 hours ago</td>
+                        </tr>
+                        <tr>
+                            <td>API Documentation</td>
+                            <td><span class="status status-pending">In Review</span></td>
+                            <td>1 day ago</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="card">
+                    <h2>Popular Pages</h2>
+                    <ul class="nav-items">
+                        <li><a href="#">Getting Started Guide</a></li>
+                        <li><a href="#">Installation Instructions</a></li>
+                        <li><a href="#">Troubleshooting Guide</a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>Quick Stats</h2>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div>
+                            <h3 style="color: #545b64; font-size: 0.9rem;">Total Pages</h3>
+                            <p style="font-size: 1.5rem; margin: 0;">245</p>
+                        </div>
+                        <div>
+                            <h3 style="color: #545b64; font-size: 0.9rem;">Contributors</h3>
+                            <p style="font-size: 1.5rem; margin: 0;">32</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Recent Activity</h2>
+                <table class="activity-table">
+                    <tr>
+                        <th>User</th>
+                        <th>Action</th>
+                        <th>Page</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Updated</td>
+                        <td>Installation Guide</td>
+                        <td>3 hours ago</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>Created</td>
+                        <td>New Tutorial</td>
+                        <td>5 hours ago</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+   <!-- This is where Footer code would go : also remember this format for putting comments into HTML5 -->
+ </body>
+</html>
